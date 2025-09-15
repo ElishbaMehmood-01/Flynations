@@ -1,0 +1,115 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(24, 23, 23);
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: white;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;  
+  height:70px; 
+  position: relative;  
+  z-index: 10;         
+}
+
+.logo-img {
+  height: 130px;   
+  width: 130px;    
+  display: block;
+    max-height: 80px; 
+}
+
+.nav-bar{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+  position: relative;
+}
+
+.nav-bar a {
+  color: darkgoldenrod;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-bar a:hover {
+  color:rgb(22, 27, 27);
+  font-size: 22px;
+
+}
+.video-wrapper {
+  width: 100%;
+  max-width: 900px;  
+  margin: 0 auto;     
+  aspect-ratio: 16/9;
+  position: relative;
+  align-content: center;
+  /* padding-left: 100pt; */
+    padding-top: 6pc;
+}
+.travel-video {
+  border-radius: 12px;
+  width: 800px;      /* apni marzi ka size */
+  height: 380px;
+  display: block;
+  margin: 20px auto;
+  /* padding-top: 10px; */
+}
+
+.herosec-content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: darkgoldenrod;
+    text-align: center;
+     padding-top: 8pc;
+}
+
+.title-heading{           
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+.tag-line{
+  color: darkgoldenrod;
+   font-size: 22px;
+  font-weight: bolder;
+  padding-top: 6px;
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  padding: 12px;
+}
+.EXPB{
+  color: white;
+  background-color: darkgoldenrod;
+   padding: 12px 24px;  
+  font-size: 18px;      
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+  }
+.EXPB:hover{
+  border-radius: 26px;
+  color: black;
+}

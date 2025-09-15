@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ /* body{
+    background-image: url(about-bg.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+} */
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    position: relative;
+    z-index: 10;
+}
+.logo{
+    color: darkgoldenrod;
+    padding: 8px 12px;
+     font-size: 40px;
+    font-weight: bolder;
+}
+.nav-bar{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+.nav-bar li{
+    position: relative;
+}
+.nav-bar a{
+    color: azure;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 10px 12px;
+}
+.nav-bar a:hover{
+    color: cornflowerblue;
+    font-size: 28px;
+}
+.hero-sec{
+    background-image: url("about-bg.jpg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    height: 120vh;               
+    width: 100%;
+}
+.hero-content h1{
+    font-size: 3pc;
+    text-align: center;
+    padding-top: 1pc;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.hero-content p{
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 2pc;
+    line-height: 1.8;
+    font-weight: bold;
+}

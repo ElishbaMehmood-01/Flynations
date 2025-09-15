@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+ .header{
+  background-color: white;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;  
+  height:70px; 
+  position: relative;  
+  z-index: 10;
+} 
+.logo{
+    color: darkgoldenrod;
+    font-size: 2pc;
+    font-weight: bolder;
+}
+.nav-bar{
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+}
+.nav-bar li{
+    position: relative;
+}
+.nav-bar{
+    gap: 24px;
+    color: black;
+    list-style: none;
+}
+.nav-bar a{
+color: black;
+list-style: none;
+text-decoration: none;
+font-size: 26px;
+}
+.nav-bar a:hover{
+    color: darkgoldenrod;
+    font-size: 30px;
+    transform: rotateX('angle');
+}
+.hero{
+    background-image: url(destination-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 19pc;
+    padding: 2pc;
+}
+.hero-content h1{
+ color: white;
+ font-size: 3pc;
+ text-align: center;
+ padding-top: 4pc; 
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+.hero-content p{
+    color: white;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 12px;
+    padding: 8px 12px;
+}
+.card-section{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  /* overflow: hidden; */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.7s;
+  text-align: center;
+  padding-top: 3pc;
+}
+.card:hover {
+  transform: translateY(-2pc);
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: fill cover;
+}
+.card h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 10px;
+    color: rgb(75, 73, 73);
+}
+.card p{
+    font-size: 22px;
+    color: rgb(91, 91, 212);
+    margin: 15px 10px;
+}
+.btn{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    font-size: bold;
+}
+.btn:hover{
+    background-color: rgb(65, 65, 105);
+  color: black;
+}
